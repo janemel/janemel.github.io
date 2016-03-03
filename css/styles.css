@@ -202,7 +202,7 @@ main {
 }
 /*ie10 hacks*/
 .ie10 .main-container {
-  min-width: 640px;
+  min-width: 960px;
 }
 .ie10 .content .stick {
   display: none;
