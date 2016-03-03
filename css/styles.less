@@ -212,13 +212,15 @@ main {
     padding-bottom: 20px;
     text-align: center;
 }
-
+/*ie10 hacks*/
+.ie10 .main-container {
+    min-width: 640px;
+}
 .ie10 .content .stick {
     display: none;
 }
 
 /*responsive*/
-
 @media only screen and (max-width : 1020px) {
     .content .text {
         justify-content: flex-start;
